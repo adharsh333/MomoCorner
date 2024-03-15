@@ -1,19 +1,18 @@
 import React from 'react'
 import './MenuLite.css'
-import image1 from '../../assets/chillinobg.png'
-import dark_arrow from '../../assets/dark-arrow.png'
+import { darkarrow, chillinobg, plattercombo } from '../../assets'
 
 const MenuLite = () => {
   return (
     <div>
     <div className='menu'>
         <div className="gallery">
-            <img src={image1} alt=''/>
-            <img src={image1} alt=''/>
-            <img src={image1} alt=''/>
-            <img src={image1} alt=''/>
+            <img src={chillinobg} alt=''/>
+            <img src={chillinobg} alt=''/>
+            <img src={chillinobg} alt=''/>
+            <img src={chillinobg} alt=''/>
         </div>
-        <button className='btn'> See more here <img src={dark_arrow} alt=''/></button>
+        <button className='btn'> See more here <img src={darkarrow} alt=''/></button>
         </div>
         </div>
   )

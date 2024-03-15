@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import { messageicon, mailicon, phoneicon, locationicon, darkarrow } from '../../assets'
+import { MdLocationOn, MdPhoneIphone, MdEmail  } from 'react-icons/md';
 
 const Contact = () => {
   
@@ -39,9 +40,9 @@ const Contact = () => {
             <h3>Send us a message <img src={messageicon} alt=''/></h3>
             <p>Feel free to reach out through contact form. Your feedback is greatly appreciated</p>
             <ul>
-                <li><img src={mailicon} alt=''/>Contact@momocorner.com</li>
-                <li><img src={phoneicon} alt=''/>+13183812707</li>
-                <li><img src={locationicon} alt=''/>dallas,tx</li>
+                <li><MdEmail className='icons'/> momocorner@momo.com</li>
+                <li><MdPhoneIphone className='icons'/>+1 306-307-4662</li>
+                <li><MdLocationOn className='icons'/>12445 Lake Fraser Dr SE #426, Calgary, AB T2J 7A4, Canada</li>
             </ul>
         </div>
         <div className='contact-col'>

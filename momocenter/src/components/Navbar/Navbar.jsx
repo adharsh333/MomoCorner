@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
-import logo from '../../assets/foodtuck.png'
-//import {Link} from 'react-scroll'
-import menu_icon from '../../assets/menu-icon.png'
+import { logo, menu } from '../../assets'
+import Hero from '../Hero/Hero';
 
 
 const Navbar = () => {
@@ -38,7 +37,7 @@ const Navbar = () => {
         <li><Link to='contact' smooth={true} offset={-150} duration={500}><button className='btn'>Contact us</button></Link></li> */}
        
     </ul>
-    <img src={menu_icon} alt='' className='menu-icon' onClick={toggleMenu}/>
+    <img src={menu} alt='' className='menu-icon' onClick={toggleMenu}/>
    </nav>
   )
 }

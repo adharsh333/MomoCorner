@@ -15,11 +15,13 @@ import chowmein from "./chowmein.png";
 import chillinobg from "./chillinobg.png";
 import biryaninobg from "./biryaninobg.png";
 import jholmomonobg from "./jholmomonobg.png";
+import plattercombo from "./PlatterCombo.png"
 import masala from "./masala.jpg";
 import user1 from "./user-1.png";
 import user2 from "./user-2.png";
 import user3 from "./user-3.png";
 import user4 from "./user-4.png";
+import spice from "./spice.png";
 
 export {
   logo,
@@ -43,4 +45,6 @@ export {
   user2,
   user3,
   user4,
+  spice,
+  plattercombo,
 };

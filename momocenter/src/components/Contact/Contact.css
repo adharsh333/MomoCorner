@@ -63,6 +63,11 @@
     margin: 20px 0;
 }
 
+.icons{
+    color: #FF9F0D;
+    margin-right: 10px;
+}
+
 
 /* ----Media Query ----  */
 @media(max-width: 700px){

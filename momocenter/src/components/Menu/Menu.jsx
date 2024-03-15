@@ -1,8 +1,6 @@
 import React from 'react'
 import './Menu.css'
-import image1 from '../../assets/chillinobg.png'
-import dark_arrow from '../../assets/dark-arrow.png'
-import image4 from '../../assets/spice.png'
+import { chillinobg,plattercombo,spice  } from '../../assets'
 
 const Menu = () => {
   return (
@@ -12,51 +10,44 @@ const Menu = () => {
         <div className="gallery">
             <div className="programs">
                 <div className='program'>
-                    <img src={image1} alt=''/>
+                    <img src={chillinobg} alt=''/>
                     <div className='caption'>
-                        <img src={image4} alt=''/>
+                        <img src={spice} alt=''/>
                         <p>Momo</p>
                     </div>
                 </div>
                 <div className='program'>
-                    <img src={image1} alt=''/>
+                    <img src={plattercombo} alt=''/>
                     <div className='caption'>
-                        <img src={image4} alt=''/>
+                        <img src={spice} alt=''/>
                         <p>Momo</p>
                     </div>
                 </div>
                 <div className='program'>
-                    <img src={image1} alt=''/>
+                    <img src={chillinobg} alt=''/>
                     <div className='caption'>
-                        <img src={image4} alt=''/>
+                        <img src={spice} alt=''/>
                         <p>Momo</p>
                     </div>
                 </div>
                 <div className='program'>
-                    <img src={image1} alt=''/>
+                    <img src={chillinobg} alt=''/>
                     <div className='caption'>
-                        <img src={image4} alt=''/>
+                        <img src={spice} alt=''/>
                         <p>Momo</p>
                     </div>
                 </div>
                 <div className='program'>
-                    <img src={image1} alt=''/>
+                    <img src={chillinobg} alt=''/>
                     <div className='caption'>
-                        <img src={image4} alt=''/>
+                        <img src={spice} alt=''/>
                         <p>Momo</p>
                     </div>
                 </div>
                 <div className='program'>
-                    <img src={image1} alt=''/>
+                    <img src={chillinobg} alt=''/>
                     <div className='caption'>
-                        <img src={image4} alt=''/>
-                        <p>Momo</p>
-                    </div>
-                </div>
-                <div className='program'>
-                    <img src={image1} alt=''/>
-                    <div className='caption'>
-                        <img src={image4} alt=''/>
+                        <img src={spice} alt=''/>
                         <p>Momo</p>
                     </div>
                 </div>
