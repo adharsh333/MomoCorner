@@ -1,0 +1,68 @@
+.frontface{
+    width:100%;
+    min-height: 50vh;
+    background: linear-gradient(rgba(13,13,13,0.7),rgba(13,13,13,0.7)),url('../../assets/masala.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.slider{
+    margin-top: 50px;
+    width: 100%;   
+    overflow: hidden; 
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.slide{
+    box-shadow: 0 0 20px rgba(0,0,0,0.0.5);
+    margin: 10px;
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 1.4;
+    background: #0D0D0D;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.user-info h3{
+    color: #FF9F0D;
+}
+
+/* ----Media Query ----  */
+@media(max-width: 800px){
+    .testimonials{
+        padding: 0 40px;
+    }
+    .testimonials ul li{
+        padding: 10px;
+    }
+    .slide{
+        padding: 10px;
+    }
+
+}
+
+@media(max-width: 600px){
+    .user-info{
+        display:block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .user-info h3{
+        font-size: 16px;
+    }
+    .slider p{
+        font-size: 12px;
+    }
+}

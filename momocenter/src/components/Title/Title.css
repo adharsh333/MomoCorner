@@ -1,0 +1,19 @@
+.title{
+    text-align: center;
+    color: #FF9F0D;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 70px 0 30px;
+}
+.title h2{
+    font-size: 32px;
+    color: #ffff;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+.title p{
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
