@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import './Menu.css'
 import { chillinobg,plattercombo,spice  } from '../../assets'
 
 const Menu = () => {
+  const [menuItems, setMenuItems] = useState([]); // State to store fetched menu items
+
+  useEffect(() => {
+    // Fetch menu items from the backend
+    const fetchMenu = async () => {
+      try {
+        const response = await fetch('http://localhost:5000/menu'); // Replace with your backend URL
+        if (!response.ok) throw new Error('Failed to fetch menu items');
+        const data = await response.json();
+        setMenuItems(data);
+      } catch (error) {
+        console.error('Error fetching menu:', error);
+      }
+    };
+
+    fetchMenu();
+  }, []);
+
   return (
     <div>
     <div className='frontface'></div>
@@ -56,7 +74,7 @@ const Menu = () => {
         </div>
         </div>
         </div>
-  )
-}
+);
+};
 
 export default Menu
